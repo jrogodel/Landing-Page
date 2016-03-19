@@ -1,0 +1,22 @@
+
+
+
+
+
+.center-text {
+	text-align: center;
+}
+
+
+.flex {
+	display: flex;
+}
+
+.flex__verticle-align {
+	justify-content: center;
+	align-content: center;
+}
+
+.body-width {
+	width: calc(100% - 10px);
+}
