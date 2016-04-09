@@ -1,0 +1,29 @@
+.clients_wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2em;
+}
+
+// Dots
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: $dark-gray;
+
+		.nav-dots .nav-dot:hover {
+			cursor: pointer;
+			background-color: $light-gray;
+		}
+	}
+					
+// 			input#img-1:checked ~ .nav-dots label#img-dot-1,
+// 			input#img-2:checked ~ .nav-dots label#img-dot-2,
+// 			input#img-3:checked ~ .nav-dots label#img-dot-3,
+// 			// background: rgba(0, 0, 0, 0.8,) 
+// }
