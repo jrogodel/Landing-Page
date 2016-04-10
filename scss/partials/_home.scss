@@ -6,7 +6,7 @@
 
 .wrapper {
 	width: 100%;
-	background-image: url(img/banner-image.jpg);
+	background-image: url(img/extra-banners/banner-image-more.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -154,9 +154,9 @@ nav {
 	align-content: center;
 	color: $dark-gray;
 	border-radius: .34rem;
-	box-shadow: 0px 0px 57px 0 rgba(4, 6, 9, 0.25);
 	-webkit-box-shadow: 0px 0px 57px 0 rgba(4, 6, 9, 0.25);
 	-moz-box-shadow: 0px 0px 57px 0 rgba(4, 6, 9, 0.25);
+	box-shadow: 0px 0px 57px 0 rgba(4, 6, 9, 0.25);
 
 
 }
@@ -175,30 +175,7 @@ nav {
 	font-size: .8rem
 }
 
-/* ---------------  Work Styles   --------------- */
 
-.work_wrapper {
-
-	background-color: $primary-dark; 
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-
-}
-
-img {
-	width: 50%;
-	height: 50%;
-	background-size: cover;
-}
-
-.work_title {
-	color: $light-gray;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2.5rem;
-	text-align: center;
-	padding: 1em;
-}
 
 
 
