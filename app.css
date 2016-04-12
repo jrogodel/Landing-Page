@@ -424,7 +424,7 @@ nav {
   font-family: 'Exo';
   font-weight: 900;
   border: solid 3px #fff;
-  padding: .5rem .8rem; }
+  padding: .4rem 1.4rem; }
 
 .nav-text {
   color: #fff;
@@ -482,18 +482,29 @@ nav {
   background-color: #7ac483; }
 
 /* ---------------  Services Styles   --------------- */
+.services {
+  border-top: 3px solid #f2b632; }
+
+.services_title {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #252839; }
+
 .services__wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  height: 25rem;
   background-color: #fff; }
 
 .service-card {
-  width: 15rem;
+  width: 25rem;
   height: 12rem;
-  border-bottom: solid 6px #f2b632;
-  margin: 4rem 4rem;
-  padding: 1rem;
+  border-bottom: solid 3px #252839;
+  margin: 3rem 2rem;
+  padding: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -502,16 +513,17 @@ nav {
   color: #0f212e; }
 
 .service-card-title {
-  margin-bottom: -10px;
+  margin-bottom: -0.5rem;
   font-size: 1.75rem; }
 
 .service-card-copy {
   text-align: center;
-  width: 90%;
-  margin-bottom: 30px; }
+  width: 95%;
+  margin-bottom: 40px; }
 
 .button-service {
-  font-size: 0.9rem; }
+  font-size: .9rem;
+  margin: 7px 0 40px 0; }
 
 .work_wrapper {
   background-color: #9fb798;
